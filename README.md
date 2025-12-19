@@ -27,30 +27,6 @@ The project demonstrates the practical application of:
 
 ---
 
-## 📂 Project Structure
-
-Email_Spam_Classification_Project/
-│
-├── data/
-│ ├── spam.csv
-│ └── README.txt
-│
-├── src/
-│ └── train.py
-│
-├── models/
-│ ├── spam_model.pkl
-│ └── vectorizer.pkl
-│
-├── demo/
-│ └── demo.py
-│
-├── requirements.txt
-└── README.md
-
-
----
-
 ## 📊 Dataset Used
 
 - **Name:** SMS Spam Collection Dataset  
@@ -59,13 +35,11 @@ Email_Spam_Classification_Project/
 - **Classes:** Spam, Ham  
 
 ### Dataset Format
-
-
-
+```
 label,message
 spam,You have won a free prize!
 ham,Please send the assignment today
-
+```
 
 ---
 
@@ -125,12 +99,17 @@ The trained model achieves approximately **97–98% accuracy**.
 ### Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
 
-Train the Model
+### Train the Model
+```bash
 python src/train.py
+```
 
-Run Live Demo
+### Run Live Demo
+```bash
 python demo/demo.py
+```
 
 ---
 
